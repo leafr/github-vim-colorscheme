@@ -11,14 +11,16 @@ endif
 
 let colors_name="github"
 
-hi Normal guifg=#000000 ctermfg=0 guibg=#FFFFFF ctermbg=15
-hi Comment guifg=#999988 ctermfg=246 guibg=#FFFFFF ctermbg=15 gui=italic
-hi String guifg=#DD1144 ctermfg=161
-hi Boolean gui=bold cterm=bold
-hi Number guifg=#009999 ctermfg=30
-hi Identifier gui=bold cterm=bold
-hi Function gui=bold cterm=bold
-hi LineNr guifg=#666666 ctermfg=241 guibg=#ECECEC ctermbg=7 
+hi Normal       ctermfg=59  ctermbg=15
+hi Comment      ctermfg=249 ctermbg=15 
+hi String       ctermfg=161
+hi Boolean
+hi Number       ctermfg=30
+hi Identifier
+hi Function
+hi ColorColumn  ctermbg=15
+hi LineNr       ctermbg=NONE ctermfg=7
+hi VertSplit    ctermbg=7    ctermfg=15
 
 hi vimCommentTitle guifg=#999988 ctermfg=246 guibg=#FFFFFF ctermbg=15 gui=italic
 
@@ -81,6 +83,4 @@ hi htmlH3 guifg=#000000 ctermfg=0
 hi htmlH4 guifg=#000000 ctermfg=0
 hi htmlH5 guifg=#000000 ctermfg=0
 hi htmlH6 guifg=#000000 ctermfg=0
-
-
 
