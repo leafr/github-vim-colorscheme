@@ -11,17 +11,6 @@ endif
 
 let colors_name="github"
 
-hi Normal       ctermfg=59  ctermbg=15
-hi Comment      ctermfg=249 ctermbg=15 
-hi String       ctermfg=161
-hi Boolean
-hi Number       ctermfg=30
-hi Identifier
-hi Function
-hi ColorColumn  ctermbg=15
-hi LineNr       ctermbg=NONE ctermfg=7
-hi VertSplit    ctermbg=7    ctermfg=15
-
 hi vimCommentTitle guifg=#999988 ctermfg=246 guibg=#FFFFFF ctermbg=15 gui=italic
 
 hi javaScriptRegexpString guifg=#009926 ctermfg=28
@@ -84,3 +73,11 @@ hi htmlH4 guifg=#000000 ctermfg=0
 hi htmlH5 guifg=#000000 ctermfg=0
 hi htmlH6 guifg=#000000 ctermfg=0
 
+hi Normal       ctermfg=59  ctermbg=15
+hi Comment      ctermfg=249 ctermbg=15 
+hi String       ctermfg=161
+hi Number       ctermfg=30
+hi ColorColumn              ctermbg=15
+hi LineNr       ctermfg=7   ctermbg=NONE 
+hi VertSplit    ctermfg=15  ctermbg=7
+hi Function     ctermfg=4
